@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle,IonImg, IonToolbar, IonCard, IonLabel, IonInput } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle,IonImg, IonToolbar, IonInput } from '@ionic/react';
 import './Tab2.css';
 
 const Tab2: React.FC = () => {
@@ -11,8 +11,10 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonTitle size="large">Arthur</IonTitle>
-        <IonImg>PHOTO ICI</IonImg>
+        <IonToolbar>
+          <IonTitle size="large">Arthur</IonTitle>
+          <IonImg>PHOTO ICI</IonImg>
+        </IonToolbar>
         <IonInput>Apport : €</IonInput>
         <IonInput>Taux emprunt : %</IonInput>
         <IonInput>Taux assurance :%</IonInput>
